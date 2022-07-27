@@ -15,6 +15,6 @@ db.query("SELECT * FROM books_mm", (err, results) => {
   console.log(results);
   db.end();
 });
-
+console.log('---last')
 // console.log(allDB)
 //output the results
